@@ -2,7 +2,7 @@
 export PREFIX="/Users/cheny39/Documents/work/22.09/json"
 
 # default ES endpoint
-export ES="https://vpc-mtp-opensearch-dev-akmgxd5o76x3at6t7conzlciam.us-east-1.es.amazonaws.com"
+export ES="localhost:9200"
 
 ./load_cancerbiomarker.sh
 ./load_diseases.sh
