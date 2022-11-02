@@ -1,1 +1,9 @@
 .DS_Store
+
+# Ignore data files when committing
+data/external/*
+data/processed/*
+data/raw/*
+
+# Do not ignore these files
+!/data/processed/dv3_priority_tests
