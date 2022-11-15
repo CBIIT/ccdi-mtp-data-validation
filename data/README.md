@@ -14,12 +14,12 @@ OpenPedCan CHoP S3 bucket: https://s3.console.aws.amazon.com/s3/buckets/d3b-open
 Directory structure referenced in `verify_data_displayed_in_mtp.ipynb` is listed below.  
 
 ```
-Last updated 2022-11-02 ZD
+Last updated 2022-11-15 ZD
 .
 └── data /
     ├── external/
     │   └── opentargets/platform/
-    │       └── 22.04/
+    │       └── {OT Version}/
     │           └── output/etl/json/
     │               ├── associationByOverallDirect/
     │               │   └── [jsonl files]
@@ -34,10 +34,15 @@ Last updated 2022-11-02 ZD
     │   │   ├── diseases.csv
     │   │   ├── evidences.csv
     │   │   └── targets.csv
-    │   ├── chopDataNavigationTable_22.09_v10.0.json 
+    │   ├── pcdn
+    |   |   └── {OT Version}_{OpenPedCan Version}
+    |   |       ├── chopDataNavigationTable.json
+    |   |       └── jsonl
+    |   |           └── [jsonl files]
+    │   │     
     │   └── pmtl_v3.0.json
     └── raw/
-        └── OpenPedCan_v10.0/
+        └── OpenPedCan_{version}/
             ├── gene-level-cnv-consensus-annotated-mut-freq.jsonl.gz
             ├── gene-level-snv-consensus-annotated-mut-freq.jsonl.gz
             ├── variant-level-snv-consensus-annotated-mut-freq.jsonl.gz
@@ -45,4 +50,4 @@ Last updated 2022-11-02 ZD
             ├── putative-oncogene-fusion-freq.jsonl.gz
             ├── long_n_tpm_mean_sd_quantile_gene_wise_zscore.jsonl.gz
             └── long_n_tpm_mean_sd_quantile_group_wise_zscore.jsonl.gz
-```
+'''

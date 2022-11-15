@@ -1,0 +1,62 @@
+OPEN PED CAN DATA CLEANING REPORT
+---
+2022-11-15
+OPENPEDCAN_VERSION: v11.1
+OPENTARGETS_VERSION: 22.04
+---
+chop_gene_level_cnv 
+    Start length: 1367844
+    0 evidences across 0 blank target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 blank disease IDs removed from chop_gene_level_cnv
+    4140 evidences across 1 invalid disease IDs removed from chop_gene_level_cnv
+    End length: 1363704 
+---
+chop_gene_level_snv 
+    Start length: 121906
+    0 evidences across 0 blank target IDs removed from chop_gene_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_snv
+    0 evidences across 0 blank disease IDs removed from chop_gene_level_snv
+    197 evidences across 2 invalid disease IDs removed from chop_gene_level_snv
+    End length: 121709 
+---
+chop_variant_level_snv 
+    Start length: 540336
+    0 evidences across 0 blank target IDs removed from chop_variant_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_variant_level_snv
+    0 evidences across 0 blank disease IDs removed from chop_variant_level_snv
+    202 evidences across 2 invalid disease IDs removed from chop_variant_level_snv
+    End length: 540134 
+---
+chop_putative_oncogene_fusion 
+    Start length: 69958
+    0 evidences across 0 blank target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 blank disease IDs removed from chop_putative_oncogene_fusion
+    25 evidences across 2 invalid disease IDs removed from chop_putative_oncogene_fusion
+    End length: 69933 
+---
+chop_putative_oncogene_fused_gene 
+    Start length: 31179
+    0 evidences across 0 blank target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 blank disease IDs removed from chop_putative_oncogene_fused_gene
+    18 evidences across 2 invalid disease IDs removed from chop_putative_oncogene_fused_gene
+    End length: 31161 
+---
+chop_tpm_genewise_expression 
+    Start length: 2750364
+    0 evidences across 0 blank target IDs removed from chop_tpm_genewise_expression
+    380 evidences across 5 invalid target IDs removed from chop_tpm_genewise_expression
+    0 evidences across 0 blank disease IDs removed from chop_tpm_genewise_expression
+    72368 evidences across 1 invalid disease IDs removed from chop_tpm_genewise_expression
+    End length: 2677616 
+---
+chop_tpm_groupwise_expression 
+    Start length: 2750364
+    0 evidences across 0 blank target IDs removed from chop_tpm_groupwise_expression
+    380 evidences across 5 invalid target IDs removed from chop_tpm_groupwise_expression
+    0 evidences across 0 blank disease IDs removed from chop_tpm_groupwise_expression
+    72368 evidences across 1 invalid disease IDs removed from chop_tpm_groupwise_expression
+    End length: 2677616 
+---
