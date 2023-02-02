@@ -1,18 +1,24 @@
 OPEN PED CAN DATA CLEANING REPORT
 ---
 2022-12-14
-OT_VERSION = 22.09
+OT_VERSION = 22.11
 OPENPEDCAN_SOMATIC_ALTERATIONS_VERSION = v11.1
 OPENPEDCAN_GENE_EXPRESSION_VERSION = v11.1
 ---
+
 chop_gene_level_cnv 
     Start length: 1367844
     0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_cnv
-    749 evidences across 18 invalid target IDs removed from chop_gene_level_cnv
+    1014 evidences across 24 invalid target IDs removed from chop_gene_level_cnv
     Invalid Target IDs:
+        ENSG00000112096
+        ENSG00000161149
         ENSG00000182230
+        ENSG00000215271
         ENSG00000221995
+        ENSG00000228139
         ENSG00000232196
+        ENSG00000233776
         ENSG00000249860
         ENSG00000255823
         ENSG00000256045
@@ -23,23 +29,26 @@ chop_gene_level_cnv
         ENSG00000258861
         ENSG00000261737
         ENSG00000269028
+        ENSG00000269900
         ENSG00000270188
         ENSG00000270394
         ENSG00000270672
         ENSG00000273888
         ENSG00000283486
     0 evidences across 0 disease names with blank disease IDs removed from chop_gene_level_cnv
-    25283 evidences across 2 invalid disease IDs removed from chop_gene_level_cnv
+    25278 evidences across 2 invalid disease IDs removed from chop_gene_level_cnv
     Invalid Disease IDs:
         Orphanet_251601
         Orphanet_2495
-    End length: 1342974 
+    End length: 1341552 
 ---
 chop_gene_level_snv 
     Start length: 121906
     0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_snv
-    10 evidences across 7 invalid target IDs removed from chop_gene_level_snv
+    29 evidences across 9 invalid target IDs removed from chop_gene_level_snv
     Invalid Target IDs:
+        ENSG00000215271
+        ENSG00000112096
         ENSG00000221995
         ENSG00000249860
         ENSG00000256045
@@ -48,84 +57,103 @@ chop_gene_level_snv
         ENSG00000182230
         ENSG00000270394
     0 evidences across 0 disease names with blank disease IDs removed from chop_gene_level_snv
-    2320 evidences across 4 invalid disease IDs removed from chop_gene_level_snv
+    2317 evidences across 4 invalid disease IDs removed from chop_gene_level_snv
     Invalid Disease IDs:
         Orphanet_178
         MONDO_0016731
         Orphanet_251601
         Orphanet_2495
-    End length: 119691 
+    End length: 119560 
 ---
 chop_variant_level_snv 
     Start length: 540336
     0 evidences across 0 gene symbols with blank target IDs removed from chop_variant_level_snv
-    16 evidences across 7 invalid target IDs removed from chop_variant_level_snv
+    63 evidences across 9 invalid target IDs removed from chop_variant_level_snv
     Invalid Target IDs:
+        ENSG00000215271
         ENSG00000249860
         ENSG00000221995
         ENSG00000256222
+        ENSG00000112096
         ENSG00000283486
         ENSG00000256045
         ENSG00000270394
         ENSG00000182230
     0 evidences across 0 disease names with blank disease IDs removed from chop_variant_level_snv
-    4449 evidences across 4 invalid disease IDs removed from chop_variant_level_snv
+    4446 evidences across 4 invalid disease IDs removed from chop_variant_level_snv
     Invalid Disease IDs:
         Orphanet_178
         MONDO_0016731
         Orphanet_251601
         Orphanet_2495
-    End length: 536226 
+    End length: 535827 
 ---
 chop_putative_oncogene_fusion 
     Start length: 69958
     0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fusion
-    8 evidences across 2 invalid target IDs removed from chop_putative_oncogene_fusion
+    75 evidences across 7 invalid target IDs removed from chop_putative_oncogene_fusion
     Invalid Target IDs:
+        ENSG00000269900
+        ENSG00000279765
+        ENSG00000224739
         ENSG00000255633
+        ENSG00000112096
         ENSG00000226380
+        ENSG00000215271
     0 evidences across 0 disease names with blank disease IDs removed from chop_putative_oncogene_fusion
-    1010 evidences across 4 invalid disease IDs removed from chop_putative_oncogene_fusion
+    1007 evidences across 4 invalid disease IDs removed from chop_putative_oncogene_fusion
     Invalid Disease IDs:
         Orphanet_178
         MONDO_0016731
         Orphanet_251601
         Orphanet_2495
-    End length: 68955 
+    End length: 68876 
 ---
 chop_putative_oncogene_fused_gene 
     Start length: 31179
     0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fused_gene
-    7 evidences across 2 invalid target IDs removed from chop_putative_oncogene_fused_gene
+    32 evidences across 7 invalid target IDs removed from chop_putative_oncogene_fused_gene
     Invalid Target IDs:
+        ENSG00000269900
+        ENSG00000279765
+        ENSG00000224739
         ENSG00000255633
         ENSG00000226380
+        ENSG00000112096
+        ENSG00000215271
     0 evidences across 0 disease names with blank disease IDs removed from chop_putative_oncogene_fused_gene
-    952 evidences across 4 invalid disease IDs removed from chop_putative_oncogene_fused_gene
+    951 evidences across 4 invalid disease IDs removed from chop_putative_oncogene_fused_gene
     Invalid Disease IDs:
         Orphanet_178
         MONDO_0016731
         Orphanet_251601
         Orphanet_2495
-    End length: 30230 
+    End length: 30196 
 ---
 chop_tpm_genewise_expression 
     Start length: 2750364
     0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_genewise_expression
-    2052 evidences across 26 invalid target IDs removed from chop_tpm_genewise_expression
+    2660 evidences across 34 invalid target IDs removed from chop_tpm_genewise_expression
     Invalid Target IDs:
+        ENSG00000112096
         ENSG00000283486
+        ENSG00000215271
         ENSG00000269028
         ENSG00000221995
         ENSG00000182230
         ENSG00000255823
         ENSG00000226380
+        ENSG00000273614
         ENSG00000273888
+        ENSG00000233776
         ENSG00000204092
+        ENSG00000226377
+        ENSG00000228139
         ENSG00000227021
         ENSG00000274202
         ENSG00000276711
         ENSG00000256618
+        ENSG00000224739
         ENSG00000232196
         ENSG00000256045
         ENSG00000228206
@@ -140,31 +168,39 @@ chop_tpm_genewise_expression
         ENSG00000278294
         ENSG00000256892
         ENSG00000270394
+        ENSG00000269900
     0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_genewise_expression
-    217182 evidences across 3 invalid disease IDs removed from chop_tpm_genewise_expression
+    216924 evidences across 3 invalid disease IDs removed from chop_tpm_genewise_expression
     Invalid Disease IDs:
         Orphanet_178
         Orphanet_251601
         Orphanet_2495
-    End length: 2533790 
+    End length: 2530780 
 ---
 chop_tpm_groupwise_expression 
     Start length: 2750364
     0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_groupwise_expression
-    2052 evidences across 26 invalid target IDs removed from chop_tpm_groupwise_expression
+    2660 evidences across 34 invalid target IDs removed from chop_tpm_groupwise_expression
     Invalid Target IDs:
+        ENSG00000112096
         ENSG00000283486
+        ENSG00000215271
         ENSG00000269028
         ENSG00000221995
         ENSG00000182230
         ENSG00000255823
         ENSG00000226380
+        ENSG00000273614
         ENSG00000273888
+        ENSG00000233776
         ENSG00000204092
+        ENSG00000226377
+        ENSG00000228139
         ENSG00000227021
         ENSG00000274202
         ENSG00000276711
         ENSG00000256618
+        ENSG00000224739
         ENSG00000232196
         ENSG00000256045
         ENSG00000228206
@@ -179,11 +215,12 @@ chop_tpm_groupwise_expression
         ENSG00000278294
         ENSG00000256892
         ENSG00000270394
+        ENSG00000269900
     0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_groupwise_expression
-    217182 evidences across 3 invalid disease IDs removed from chop_tpm_groupwise_expression
+    216924 evidences across 3 invalid disease IDs removed from chop_tpm_groupwise_expression
     Invalid Disease IDs:
         Orphanet_178
         Orphanet_251601
         Orphanet_2495
-    End length: 2533790 
+    End length: 2530780 
 ---
