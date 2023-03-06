@@ -3,7 +3,9 @@ export PREFIX=/Users/cheny39/Documents/work/22.11/json
 # empty prefix release. If you specify it it will be simply prefixed like "20.11_"...
 export INDEX_SETTINGS=/Users/cheny39/Documents/work/mtp/ppdc-dataloader/elasticsearch22.11/index_settings.json
 # default ES endpoint
-export ES=https://vpc-mtp-opensearch-qa-y4vflq7yz2zwwpwcxii6r75zza.us-east-1.es.amazonaws.com/
+
+export ES="localhost:9200"
+
 
 ./load_targets.sh
 ./load_pcdn.sh
