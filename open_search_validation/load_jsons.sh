@@ -7,8 +7,8 @@ echo INDEX_NAME = $INDEX_NAME
 INDEX=$INDEX_NAME
 
 
-number_of_doc=$(find $INPUT  -name *.json |xargs   wc -l  | awk '{sum+=$1}END{print sum}' )
-echo $number_of_doc
+number_of_doc=$(find $INPUT  -name *.json |xargs   wc -l  | awk '{sum+=$1}END{print sum/2}' )
+echo "[local]   $number_of_doc ." 
 echo $ES/$INDEX_NAME"/_count" 
 
 
