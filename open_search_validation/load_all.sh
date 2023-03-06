@@ -1,7 +1,7 @@
 # where the ETL output prefix is located as inside it should find each step output
-export PREFIX=/Users/cheny39/Documents/work/22.11/json
+export PREFIX=
 # empty prefix release. If you specify it it will be simply prefixed like "20.11_"...
-export INDEX_SETTINGS=/Users/cheny39/Documents/work/mtp/ppdc-dataloader/elasticsearch22.11/index_settings.json
+export INDEX_SETTINGS=
 # default ES endpoint
 
 export ES="localhost:9200"
