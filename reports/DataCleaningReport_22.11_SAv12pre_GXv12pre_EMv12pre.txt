@@ -1,0 +1,120 @@
+OPEN PED CAN DATA CLEANING REPORT
+---
+2023-04-03
+OT_VERSION = '22.11'
+OPENPEDCAN_SOMATIC_ALTERATIONS_VERSION = 'v12pre'
+OPENPEDCAN_GENE_EXPRESSION_VERSION = 'v12pre'
+OPENPEDCAN_EPIGENETIC_MODIFICATION_VERSION = 'v12pre'
+---
+
+chop_gene_level_cnv 
+    Start length: 2196588
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_cnv
+    71611 evidences across 2 disease names with blank disease IDs removed from chop_gene_level_cnv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    2680 evidences across 1 invalid disease IDs removed from chop_gene_level_cnv
+    Invalid Disease IDs:
+        MONDO_0016731
+    End length: 2122297 
+---
+chop_gene_level_snv 
+    Start length: 145207
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_snv
+    1152 evidences across 2 disease names with blank disease IDs removed from chop_gene_level_snv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    27 evidences across 1 invalid disease IDs removed from chop_gene_level_snv
+    Invalid Disease IDs:
+        MONDO_0016731
+    End length: 144028 
+---
+chop_variant_level_snv 
+    Start length: 591897
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_variant_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_variant_level_snv
+    1414 evidences across 2 disease names with blank disease IDs removed from chop_variant_level_snv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    30 evidences across 1 invalid disease IDs removed from chop_variant_level_snv
+    Invalid Disease IDs:
+        MONDO_0016731
+    End length: 590453 
+---
+chop_putative_oncogene_fusion 
+    Start length: 123049
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fusion
+    604 evidences across 2 disease names with blank disease IDs removed from chop_putative_oncogene_fusion
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    28 evidences across 2 invalid disease IDs removed from chop_putative_oncogene_fusion
+    Invalid Disease IDs:
+        MONDO_0016731
+        EFO_0030051
+    End length: 122417 
+---
+chop_putative_oncogene_fused_gene 
+    Start length: 54051
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fused_gene
+    451 evidences across 2 disease names with blank disease IDs removed from chop_putative_oncogene_fused_gene
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    22 evidences across 2 invalid disease IDs removed from chop_putative_oncogene_fused_gene
+    Invalid Disease IDs:
+        MONDO_0016731
+        EFO_0030051
+    End length: 53578 
+---
+chop_tpm_genewise_expression 
+    Start length: 8300403
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_genewise_expression
+    0 evidences across 0 invalid target IDs removed from chop_tpm_genewise_expression
+    217004 evidences across 2 disease names with blank disease IDs removed from chop_tpm_genewise_expression
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_tpm_genewise_expression
+    End length: 8083399 
+---
+chop_tpm_groupwise_expression 
+    Start length: 8300403
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_groupwise_expression
+    0 evidences across 0 invalid target IDs removed from chop_tpm_groupwise_expression
+    217004 evidences across 2 disease names with blank disease IDs removed from chop_tpm_groupwise_expression
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_tpm_groupwise_expression
+    End length: 8083399 
+---
+chop_isoform_level_methylation 
+    Start length: 151130601
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_isoform_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_isoform_level_methylation
+    8000160 evidences across 2 disease names with blank disease IDs removed from chop_isoform_level_methylation
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_isoform_level_methylation
+    End length: 143130441 
+---
+chop_gene_level_methylation 
+    Start length: 40946560
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_methylation
+    2124585 evidences across 2 disease names with blank disease IDs removed from chop_gene_level_methylation
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_methylation
+    End length: 38821975 
+---

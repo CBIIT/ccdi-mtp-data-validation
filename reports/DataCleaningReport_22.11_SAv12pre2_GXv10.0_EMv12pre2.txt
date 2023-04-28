@@ -1,0 +1,584 @@
+OPEN PED CAN DATA CLEANING REPORT
+---
+2023-04-10
+OT_VERSION = '22.11'
+OPENPEDCAN_SOMATIC_ALTERATIONS_VERSION = 'v12pre2'
+OPENPEDCAN_GENE_EXPRESSION_VERSION = 'v10.0'
+OPENPEDCAN_EPIGENETIC_MODIFICATION_VERSION = 'v12pre'
+---
+
+chop_gene_level_cnv 
+    Start length: 2196588
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_cnv
+    71611 evidences across 2 disease names with blank disease IDs removed from chop_gene_level_cnv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_cnv
+    End length: 2124977 
+---
+chop_gene_level_snv 
+    Start length: 142626
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_snv
+    1103 evidences across 2 disease names with blank disease IDs removed from chop_gene_level_snv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_snv
+    End length: 141523 
+---
+chop_variant_level_snv 
+    Start length: 584007
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_variant_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_variant_level_snv
+    1296 evidences across 2 disease names with blank disease IDs removed from chop_variant_level_snv
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    0 evidences across 0 invalid disease IDs removed from chop_variant_level_snv
+    End length: 582711 
+---
+chop_putative_oncogene_fusion 
+    Start length: 123049
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fusion
+    604 evidences across 2 disease names with blank disease IDs removed from chop_putative_oncogene_fusion
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    2 evidences across 1 invalid disease IDs removed from chop_putative_oncogene_fusion
+    Invalid Disease IDs:
+        EFO_0030051
+    End length: 122443 
+---
+chop_putative_oncogene_fused_gene 
+    Start length: 54051
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fused_gene
+    451 evidences across 2 disease names with blank disease IDs removed from chop_putative_oncogene_fused_gene
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        SEGA
+    2 evidences across 1 invalid disease IDs removed from chop_putative_oncogene_fused_gene
+    Invalid Disease IDs:
+        EFO_0030051
+    End length: 53598 
+---
+chop_tpm_genewise_expression 
+    Start length: 2803608
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_genewise_expression
+    17208 evidences across 232 invalid target IDs removed from chop_tpm_genewise_expression
+    Invalid Target IDs:
+        ENSG00000112096
+        ENSG00000241978
+        ENSG00000130723
+        ENSG00000225178
+        ENSG00000280237
+        ENSG00000257151
+        ENSG00000116957
+        ENSG00000268439
+        ENSG00000130489
+        ENSG00000204282
+        ENSG00000273000
+        ENSG00000277203
+        ENSG00000283486
+        ENSG00000170647
+        ENSG00000225986
+        ENSG00000215271
+        ENSG00000069712
+        ENSG00000269028
+        ENSG00000235475
+        ENSG00000257613
+        ENSG00000221995
+        ENSG00000272724
+        ENSG00000213865
+        ENSG00000182230
+        ENSG00000256164
+        ENSG00000276932
+        ENSG00000277428
+        ENSG00000228439
+        ENSG00000182584
+        ENSG00000283406
+        ENSG00000242349
+        ENSG00000255823
+        ENSG00000213846
+        ENSG00000267034
+        ENSG00000176075
+        ENSG00000184258
+        ENSG00000281508
+        ENSG00000274956
+        ENSG00000203886
+        ENSG00000223414
+        ENSG00000133808
+        ENSG00000240929
+        ENSG00000226380
+        ENSG00000273164
+        ENSG00000233864
+        ENSG00000228265
+        ENSG00000262180
+        ENSG00000228962
+        ENSG00000285447
+        ENSG00000273614
+        ENSG00000186354
+        ENSG00000274897
+        ENSG00000243444
+        ENSG00000221972
+        ENSG00000203818
+        ENSG00000256304
+        ENSG00000231595
+        ENSG00000279355
+        ENSG00000275405
+        ENSG00000275987
+        ENSG00000277374
+        ENSG00000284413
+        ENSG00000273888
+        ENSG00000279396
+        ENSG00000263812
+        ENSG00000221870
+        ENSG00000233776
+        ENSG00000261963
+        ENSG00000203819
+        ENSG00000286065
+        ENSG00000154537
+        ENSG00000226738
+        ENSG00000204092
+        ENSG00000284741
+        ENSG00000255394
+        ENSG00000251164
+        ENSG00000233265
+        ENSG00000213077
+        ENSG00000226377
+        ENSG00000228139
+        ENSG00000236269
+        ENSG00000250889
+        ENSG00000227021
+        ENSG00000226155
+        ENSG00000281881
+        ENSG00000274202
+        ENSG00000276711
+        ENSG00000276135
+        ENSG00000204187
+        ENSG00000181013
+        ENSG00000256618
+        ENSG00000228569
+        ENSG00000233878
+        ENSG00000278457
+        ENSG00000225163
+        ENSG00000198384
+        ENSG00000269998
+        ENSG00000225932
+        ENSG00000260760
+        ENSG00000272196
+        ENSG00000186842
+        ENSG00000170165
+        ENSG00000163009
+        ENSG00000234871
+        ENSG00000224739
+        ENSG00000253929
+        ENSG00000203812
+        ENSG00000232196
+        ENSG00000234689
+        ENSG00000256045
+        ENSG00000224959
+        ENSG00000267654
+        ENSG00000228206
+        ENSG00000254671
+        ENSG00000278272
+        ENSG00000244693
+        ENSG00000238033
+        ENSG00000267528
+        ENSG00000237548
+        ENSG00000270672
+        ENSG00000271649
+        ENSG00000233844
+        ENSG00000256374
+        ENSG00000167945
+        ENSG00000271043
+        ENSG00000229352
+        ENSG00000259703
+        ENSG00000277890
+        ENSG00000277927
+        ENSG00000278625
+        ENSG00000278793
+        ENSG00000256257
+        ENSG00000237152
+        ENSG00000276591
+        ENSG00000274267
+        ENSG00000204683
+        ENSG00000260977
+        ENSG00000265556
+        ENSG00000234229
+        ENSG00000183729
+        ENSG00000230971
+        ENSG00000273739
+        ENSG00000273937
+        ENSG00000276197
+        ENSG00000276312
+        ENSG00000227895
+        ENSG00000263464
+        ENSG00000202248
+        ENSG00000243135
+        ENSG00000203386
+        ENSG00000231200
+        ENSG00000256222
+        ENSG00000224235
+        ENSG00000236392
+        ENSG00000231599
+        ENSG00000266960
+        ENSG00000250003
+        ENSG00000225520
+        ENSG00000266486
+        ENSG00000232348
+        ENSG00000268991
+        ENSG00000220548
+        ENSG00000242180
+        ENSG00000225860
+        ENSG00000214215
+        ENSG00000227902
+        ENSG00000204365
+        ENSG00000249265
+        ENSG00000259641
+        ENSG00000240224
+        ENSG00000229323
+        ENSG00000223929
+        ENSG00000250400
+        ENSG00000275661
+        ENSG00000199837
+        ENSG00000236030
+        ENSG00000226785
+        ENSG00000268714
+        ENSG00000255633
+        ENSG00000251085
+        ENSG00000204805
+        ENSG00000258861
+        ENSG00000243012
+        ENSG00000257053
+        ENSG00000274791
+        ENSG00000248486
+        ENSG00000262477
+        ENSG00000235822
+        ENSG00000276700
+        ENSG00000274307
+        ENSG00000270188
+        ENSG00000199900
+        ENSG00000271020
+        ENSG00000249860
+        ENSG00000272351
+        ENSG00000277723
+        ENSG00000274959
+        ENSG00000261277
+        ENSG00000254597
+        ENSG00000279132
+        ENSG00000221961
+        ENSG00000278294
+        ENSG00000237847
+        ENSG00000278674
+        ENSG00000281657
+        ENSG00000241737
+        ENSG00000274744
+        ENSG00000256892
+        ENSG00000237534
+        ENSG00000270394
+        ENSG00000183791
+        ENSG00000199404
+        ENSG00000235193
+        ENSG00000258652
+        ENSG00000278080
+        ENSG00000215365
+        ENSG00000189393
+        ENSG00000278807
+        ENSG00000235719
+        ENSG00000242879
+        ENSG00000224710
+        ENSG00000235825
+        ENSG00000286228
+        ENSG00000236660
+        ENSG00000206483
+        ENSG00000283374
+        ENSG00000231656
+        ENSG00000229477
+        ENSG00000223535
+        ENSG00000237122
+        ENSG00000269900
+        ENSG00000212290
+    0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_genewise_expression
+    154800 evidences across 2 invalid disease IDs removed from chop_tpm_genewise_expression
+    Invalid Disease IDs:
+        Orphanet_178
+        Orphanet_2495
+    End length: 2631600 
+---
+chop_tpm_groupwise_expression 
+    Start length: 2803608
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_groupwise_expression
+    17208 evidences across 232 invalid target IDs removed from chop_tpm_groupwise_expression
+    Invalid Target IDs:
+        ENSG00000112096
+        ENSG00000241978
+        ENSG00000130723
+        ENSG00000225178
+        ENSG00000280237
+        ENSG00000257151
+        ENSG00000116957
+        ENSG00000268439
+        ENSG00000130489
+        ENSG00000204282
+        ENSG00000273000
+        ENSG00000277203
+        ENSG00000283486
+        ENSG00000170647
+        ENSG00000225986
+        ENSG00000215271
+        ENSG00000069712
+        ENSG00000269028
+        ENSG00000235475
+        ENSG00000257613
+        ENSG00000221995
+        ENSG00000272724
+        ENSG00000213865
+        ENSG00000182230
+        ENSG00000256164
+        ENSG00000276932
+        ENSG00000277428
+        ENSG00000228439
+        ENSG00000182584
+        ENSG00000283406
+        ENSG00000242349
+        ENSG00000255823
+        ENSG00000213846
+        ENSG00000267034
+        ENSG00000176075
+        ENSG00000184258
+        ENSG00000281508
+        ENSG00000274956
+        ENSG00000203886
+        ENSG00000223414
+        ENSG00000133808
+        ENSG00000240929
+        ENSG00000226380
+        ENSG00000273164
+        ENSG00000233864
+        ENSG00000228265
+        ENSG00000262180
+        ENSG00000228962
+        ENSG00000285447
+        ENSG00000273614
+        ENSG00000186354
+        ENSG00000274897
+        ENSG00000243444
+        ENSG00000221972
+        ENSG00000203818
+        ENSG00000256304
+        ENSG00000231595
+        ENSG00000279355
+        ENSG00000275405
+        ENSG00000275987
+        ENSG00000277374
+        ENSG00000284413
+        ENSG00000273888
+        ENSG00000279396
+        ENSG00000263812
+        ENSG00000221870
+        ENSG00000233776
+        ENSG00000261963
+        ENSG00000203819
+        ENSG00000286065
+        ENSG00000154537
+        ENSG00000226738
+        ENSG00000204092
+        ENSG00000284741
+        ENSG00000255394
+        ENSG00000251164
+        ENSG00000233265
+        ENSG00000213077
+        ENSG00000226377
+        ENSG00000228139
+        ENSG00000236269
+        ENSG00000250889
+        ENSG00000227021
+        ENSG00000226155
+        ENSG00000281881
+        ENSG00000274202
+        ENSG00000276711
+        ENSG00000276135
+        ENSG00000204187
+        ENSG00000181013
+        ENSG00000256618
+        ENSG00000228569
+        ENSG00000233878
+        ENSG00000278457
+        ENSG00000225163
+        ENSG00000198384
+        ENSG00000269998
+        ENSG00000225932
+        ENSG00000260760
+        ENSG00000272196
+        ENSG00000186842
+        ENSG00000170165
+        ENSG00000163009
+        ENSG00000234871
+        ENSG00000224739
+        ENSG00000253929
+        ENSG00000203812
+        ENSG00000232196
+        ENSG00000234689
+        ENSG00000256045
+        ENSG00000224959
+        ENSG00000267654
+        ENSG00000228206
+        ENSG00000254671
+        ENSG00000278272
+        ENSG00000244693
+        ENSG00000238033
+        ENSG00000267528
+        ENSG00000237548
+        ENSG00000270672
+        ENSG00000271649
+        ENSG00000233844
+        ENSG00000256374
+        ENSG00000167945
+        ENSG00000271043
+        ENSG00000229352
+        ENSG00000259703
+        ENSG00000277890
+        ENSG00000277927
+        ENSG00000278625
+        ENSG00000278793
+        ENSG00000256257
+        ENSG00000237152
+        ENSG00000276591
+        ENSG00000274267
+        ENSG00000204683
+        ENSG00000260977
+        ENSG00000265556
+        ENSG00000234229
+        ENSG00000183729
+        ENSG00000230971
+        ENSG00000273739
+        ENSG00000273937
+        ENSG00000276197
+        ENSG00000276312
+        ENSG00000227895
+        ENSG00000263464
+        ENSG00000202248
+        ENSG00000243135
+        ENSG00000203386
+        ENSG00000231200
+        ENSG00000256222
+        ENSG00000224235
+        ENSG00000236392
+        ENSG00000231599
+        ENSG00000266960
+        ENSG00000250003
+        ENSG00000225520
+        ENSG00000266486
+        ENSG00000232348
+        ENSG00000268991
+        ENSG00000220548
+        ENSG00000242180
+        ENSG00000225860
+        ENSG00000214215
+        ENSG00000227902
+        ENSG00000204365
+        ENSG00000249265
+        ENSG00000259641
+        ENSG00000240224
+        ENSG00000229323
+        ENSG00000223929
+        ENSG00000250400
+        ENSG00000275661
+        ENSG00000199837
+        ENSG00000236030
+        ENSG00000226785
+        ENSG00000268714
+        ENSG00000255633
+        ENSG00000251085
+        ENSG00000204805
+        ENSG00000258861
+        ENSG00000243012
+        ENSG00000257053
+        ENSG00000274791
+        ENSG00000248486
+        ENSG00000262477
+        ENSG00000235822
+        ENSG00000276700
+        ENSG00000274307
+        ENSG00000270188
+        ENSG00000199900
+        ENSG00000271020
+        ENSG00000249860
+        ENSG00000272351
+        ENSG00000277723
+        ENSG00000274959
+        ENSG00000261277
+        ENSG00000254597
+        ENSG00000279132
+        ENSG00000221961
+        ENSG00000278294
+        ENSG00000237847
+        ENSG00000278674
+        ENSG00000281657
+        ENSG00000241737
+        ENSG00000274744
+        ENSG00000256892
+        ENSG00000237534
+        ENSG00000270394
+        ENSG00000183791
+        ENSG00000199404
+        ENSG00000235193
+        ENSG00000258652
+        ENSG00000278080
+        ENSG00000215365
+        ENSG00000189393
+        ENSG00000278807
+        ENSG00000235719
+        ENSG00000242879
+        ENSG00000224710
+        ENSG00000235825
+        ENSG00000286228
+        ENSG00000236660
+        ENSG00000206483
+        ENSG00000283374
+        ENSG00000231656
+        ENSG00000229477
+        ENSG00000223535
+        ENSG00000237122
+        ENSG00000269900
+        ENSG00000212290
+    0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_groupwise_expression
+    154800 evidences across 2 invalid disease IDs removed from chop_tpm_groupwise_expression
+    Invalid Disease IDs:
+        Orphanet_178
+        Orphanet_2495
+    End length: 2631600 
+---
+chop_isoform_level_methylation 
+    Start length: 245765444
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_isoform_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_isoform_level_methylation
+    13101690 evidences across 3 disease names with blank disease IDs removed from chop_isoform_level_methylation
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        Glial-neuronal tumor
+        SEGA
+    4367230 evidences across 1 invalid disease IDs removed from chop_isoform_level_methylation
+    Invalid Disease IDs:
+        EFO_0030051
+    End length: 228296524 
+---
+chop_gene_level_methylation 
+    Start length: 51389770
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_methylation
+    2731092 evidences across 3 disease names with blank disease IDs removed from chop_gene_level_methylation
+    Disease Names of blank IDs:
+        Diffuse hemispheric glioma
+        Glial-neuronal tumor
+        SEGA
+    910364 evidences across 1 invalid disease IDs removed from chop_gene_level_methylation
+    Invalid Disease IDs:
+        EFO_0030051
+    End length: 47748314 
+---
