@@ -1,0 +1,90 @@
+OPEN PED CAN DATA CLEANING REPORT
+---
+2023-05-10
+OT_VERSION = '22.11'
+OPENPEDCAN_SOMATIC_ALTERATIONS_VERSION = 'v12.0'
+OPENPEDCAN_GENE_EXPRESSION_VERSION = 'v12.0'
+OPENPEDCAN_EPIGENETIC_MODIFICATION_VERSION = 'v12.0'
+OPENPEDCAN_DIFFERENTIAL_EXPRESSION_VERSION = 'v12.0'
+---
+
+chop_gene_level_cnv 
+    Start length: 2129202
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_cnv
+    0 evidences across 0 disease names with blank disease IDs removed from chop_gene_level_cnv
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_cnv
+    End length: 2129202 
+---
+chop_gene_level_snv 
+    Start length: 148387
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_snv
+    0 evidences across 0 disease names with blank disease IDs removed from chop_gene_level_snv
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_snv
+    End length: 148387 
+---
+chop_variant_level_snv 
+    Start length: 594585
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_variant_level_snv
+    0 evidences across 0 invalid target IDs removed from chop_variant_level_snv
+    0 evidences across 0 disease names with blank disease IDs removed from chop_variant_level_snv
+    0 evidences across 0 invalid disease IDs removed from chop_variant_level_snv
+    End length: 594585 
+---
+chop_putative_oncogene_fusion 
+    Start length: 123673
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 disease names with blank disease IDs removed from chop_putative_oncogene_fusion
+    0 evidences across 0 invalid disease IDs removed from chop_putative_oncogene_fusion
+    End length: 123673 
+---
+chop_putative_oncogene_fused_gene 
+    Start length: 54383
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 invalid target IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 disease names with blank disease IDs removed from chop_putative_oncogene_fused_gene
+    0 evidences across 0 invalid disease IDs removed from chop_putative_oncogene_fused_gene
+    End length: 54383 
+---
+chop_tpm_genewise_expression 
+    Start length: 8246152
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_genewise_expression
+    0 evidences across 0 invalid target IDs removed from chop_tpm_genewise_expression
+    0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_genewise_expression
+    0 evidences across 0 invalid disease IDs removed from chop_tpm_genewise_expression
+    End length: 8246152 
+---
+chop_tpm_groupwise_expression 
+    Start length: 8246152
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_tpm_groupwise_expression
+    0 evidences across 0 invalid target IDs removed from chop_tpm_groupwise_expression
+    0 evidences across 0 disease names with blank disease IDs removed from chop_tpm_groupwise_expression
+    0 evidences across 0 invalid disease IDs removed from chop_tpm_groupwise_expression
+    End length: 8246152 
+---
+chop_isoform_level_methylation 
+    Start length: 245765444
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_isoform_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_isoform_level_methylation
+    0 evidences across 0 disease names with blank disease IDs removed from chop_isoform_level_methylation
+    0 evidences across 0 invalid disease IDs removed from chop_isoform_level_methylation
+    End length: 245765444 
+---
+chop_gene_level_methylation 
+    Start length: 51389770
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_gene_level_methylation
+    0 evidences across 0 invalid target IDs removed from chop_gene_level_methylation
+    0 evidences across 0 disease names with blank disease IDs removed from chop_gene_level_methylation
+    0 evidences across 0 invalid disease IDs removed from chop_gene_level_methylation
+    End length: 51389770 
+---
+chop_differential_expression 
+    Start length: 293405244
+    0 evidences across 0 gene symbols with blank target IDs removed from chop_differential_expression
+    0 evidences across 0 invalid target IDs removed from chop_differential_expression
+    0 evidences across 0 disease names with blank disease IDs removed from chop_differential_expression
+    0 evidences across 0 invalid disease IDs removed from chop_differential_expression
+    End length: 293405244 
+---
