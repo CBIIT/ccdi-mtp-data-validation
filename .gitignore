@@ -4,7 +4,7 @@
 data/external/*
 data/processed/*
 data/raw/*
-data/test/*
+data/test/geneExpressionDataDownloads/*
 
 # Do not ignore these files
 !/data/processed/dv3_priority_tests
